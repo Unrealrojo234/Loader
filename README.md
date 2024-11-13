@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 ```
 
   <li><em>load event</em></li>
-  This event fires only when the page contents and all its associated resources are already loaded to webpage
+  This event fires only when the page contents and all its associated resources are already loaded to webpage.
 
 ```javascript
 window.addEventListener("load", function () {
@@ -37,7 +37,10 @@ window.addEventListener("load", function () {
 ```
 
 </ul>
-
+<p>Each has its own pros and cons, here are some breakdown of them:</p>
+<p>For the <em>setTimeout method</em>, it offers a concise and no further delay in page loading hence predictable. But its limitation is that sometime the allocated time for the call-back function may be insufficient and it may trigger before the page is ready.</p>
+<p>For the <em>DOMContentLoaded Event</em>, it may be too fast and fire back even if the whole page resources have not loaded but it's much faster than load event though this may be a limitation.</p>
+<p>For the <em>load event</em> it will only fire back when the whole page resources have loaded and are ready, it's limitation is that sometimes it may take too long to load page contents making it unreliable, especially if a large amount of data is required by the web page from an api.</p>
 <p>You can choose either one of them depending on your needs and preferences.</p>
 <h3>What's next 🤔.</h3>
 <p>Well, what we have to do now is to create our loader and web page contents using html and css.</p>
