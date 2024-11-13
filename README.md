@@ -1,6 +1,6 @@
 # How add Loaders to Websites the right way 😌
 
-<p>Website with loaders offer better user experience than than those without, especially if the website handles background processing or if the website has a huge bundle and takes time loading contents.</p>
+<p>Websites with loaders offer better user experience than than those without, especially if the website handles background processing or if the website has a huge bundle and takes time loading contents.</p>
 <p>We would'nt want users to stare at a blank web page while not being assured that there are background processes running e.g querying data from a database with an api,loading images from a link or even loading the website files.</p>
 
 <h1>Getting started 🫡</h1>
