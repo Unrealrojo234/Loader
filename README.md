@@ -76,7 +76,7 @@ window.addEventListener("load", function () {
 ```
 
 <h3>Last Part</h3>
-<p>We want to only show our loading until the page loader then we need it to be hidden and only the page contents to be visible. We'll achieve this using js.</p>
+<p>We want to only show our make our loader visible until the page has loaded then we need it to be hidden and only the page contents to be visible. We'll achieve this using js.</p>
 <p>In this tutorial I will use the setTimeout method but you can experiment with any.</p>
 
 <p>Link your html with your javascipt file.</p>
