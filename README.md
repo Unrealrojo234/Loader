@@ -1,10 +1,10 @@
 # How add Loaders to Websites the right way 😌
 
-<p>Website with loaders offer more user than than those without, especially if the website handles background processing or if the website has a huge bundle and takes time loading contents.</p>
+<p>Website with loaders offer better user experience than than those without, especially if the website handles background processing or if the website has a huge bundle and takes time loading contents.</p>
 <p>We would'nt want users to stare at a blank web page while not being assured that there are background processes running e.g querying data from a database with an api,loading images from a link or even loading the website files.</p>
 
 <h1>Getting started 🫡</h1>
-<p>There are two ways by which we can achieve this; either by using the setTimeout method or with event listeners to check if the dom content has loader</p>
+<p>There are two ways by which we can achieve this; either by using the setTimeout method or with event listeners to check if the dom content has loaded</p>
 <h5>Code Examples:)</h5>
 <p>SetTimeout method.</p>
 
